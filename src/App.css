@@ -1,29 +1,55 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.user-container{
+  width: 60%;
+  margin: 20px 20px;
+  background-image: linear-gradient(to right,rgb(255, 125, 110),rgb(195, 11, 109));
 }
 
+.user{
+  display: flex;
+  border:1px solid lightgray;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgba(255, 255, 240, 0.739);
+  
+}
+.user-info{
+  margin-left: 30px;
+}
+.text{
+  color: rgb(63, 62, 62);
+  font-weight: 500;
+}
+.member-added{
+  border: 1px solid red;
+  width: 40%;
+  margin-top: 20px;
+  text-align: center;
+  height: 300px;
+  background-image: linear-gradient(to right,rgb(255, 125, 110),rgb(216, 10, 120))
+  
+}
+.total{
+  margin-top: 90px;
+  
+}
+.btn{
+  width: 100px;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(192, 27, 90);
+  color: white;
+  border: 1px solid lightgray;
+}
 .App-link {
   color: #61dafb;
 }
